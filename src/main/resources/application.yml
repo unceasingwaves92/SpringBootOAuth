@@ -1,0 +1,14 @@
+security:
+  oauth2:
+    client:
+       clientId: 3d3fde530314ebc7e704
+       clientSecret: dd5d0c247154f0cadf52beae4583d753c0c54d24
+       accessTokenUri: https://github.com/login/oauth/access_token
+       userAuthorizationUri: https://github.com/login/oauth/authorize
+       clientAuthenticationScheme: form
+    resource:
+      user-info-uri: https://api.github.com/user
+      prefer-token-info: false
+
+server:
+  port  : 9090
